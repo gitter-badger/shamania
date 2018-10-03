@@ -7,7 +7,7 @@ class OutputMode(Enum):
     DEBUG = 2
     MINIMAL = 3
 
-APP_NAME = 'gladAI'
+APP_NAME = 'Shamania'
 OUTPUT_MODE = OutputMode.VERBOSE
 TEMPLATES_PATH = os.path.join(
     os.path.abspath(os.path.dirname(__file__)),
