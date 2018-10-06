@@ -1,6 +1,6 @@
 from aiohttp import web
 
-import .handlers
+import handlers
 
 
 routes = [

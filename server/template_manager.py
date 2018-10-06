@@ -1,6 +1,6 @@
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import config
+import config
 
 
 class TemplateManager:

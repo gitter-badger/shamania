@@ -1,7 +1,7 @@
 import logging
 
-from . import config
-from .config import OutputMode
+import config
+from config import OutputMode
 
 
 class LoggerManager:

@@ -1,7 +1,7 @@
 from aiohttp import web
 
-import .config
-from .routes import setup_routes
+import config
+from routes import setup_routes
 
 
 if __name__ == '__main__':

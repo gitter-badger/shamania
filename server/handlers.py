@@ -1,8 +1,8 @@
 from aiohttp import web
 
-from . import config
-from .template_manager import TemplateManager
-from .logger_manager import LoggerManager
+import config
+from template_manager import TemplateManager
+from logger_manager import LoggerManager
 
 
 logger = LoggerManager.get_logger(__name__)

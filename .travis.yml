@@ -7,7 +7,7 @@ matrix:
 install:
   - pip install -r server/requirements.txt
 script:
-  - python -m unittest
+  - python -m unittest server
 notifications:
   email:
     - alan.le.mouroux@gmail.com
